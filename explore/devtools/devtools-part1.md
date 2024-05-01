@@ -7,3 +7,6 @@
 7. When was the file last modified? Thu, 15 Sep 2022 22:44:30 GMT
 8. What was the Content-Type of the file? application/json; charset=utf-8
 9. Which function inside the initiating file made the request? function fetchData() { fetch('./citylots.json') } function init() { document.getElementById('fetchData').addEventListener('click', fetchData); } window.addEventListener('DOMContentLoaded', init);
+
+1. The bug was that num1 and num2 weren't initialized.
+2. added initialization for it.
